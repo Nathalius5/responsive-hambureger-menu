@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  background-color: #15304c;
+  height: 70px;
+}
+
+.logo {
+  flex-grow: 1;
+}
+
+.logo img {
+  width: 200px;
+  margin-left: 20px;
+}
+
+nav {
+  margin-right: 30px;
+}
+
+nav li {
+  display: inline-block;
+  list-style-type: none;
+  margin-right: 20px;
+}
+
+nav li a {
+  text-decoration: none;
+  color: white;
+}
+
+.menu-icon {
+  display: none;
+  margin-right: 30px;
+}
+
+.welcome {
+  background: url("img/background.webp");
+  min-height: calc(100vh - 70px);
+  background-size: cover;
+  background-position: center;
+}
